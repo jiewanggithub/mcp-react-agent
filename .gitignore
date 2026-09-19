@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+*.egg-info/
+
+# Env secrets
+.env
+
+# Backend runtime output
+backend/data/output/*
+!backend/data/output/.gitkeep
+
+# Node / frontend
+node_modules/
+frontend/dist/
+.vite/
+
+# OS / editor
+.DS_Store
+.vscode/
+.idea/

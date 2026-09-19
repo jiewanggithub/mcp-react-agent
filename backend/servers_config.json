@@ -1,0 +1,16 @@
+{
+  "weather_season": {
+    "transport": "stdio",
+    "command": "python",
+    "args": ["mcp_servers/local_server.py"]
+  },
+  "file_writer": {
+    "transport": "stdio",
+    "command": "python",
+    "args": ["mcp_servers/file_server.py"]
+  },
+  "amap_maps": {
+    "transport": "sse",
+    "url": "${AMAP_MCP_SSE_URL}"
+  }
+}

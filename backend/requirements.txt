@@ -1,0 +1,17 @@
+fastapi==0.115.6
+uvicorn[standard]==0.32.1
+pydantic==2.10.3
+pydantic-settings==2.7.0
+python-dotenv>=1.1.0
+
+# LangGraph / LangChain
+langgraph==0.2.62
+langchain-core>=0.3.36,<0.4.0
+langchain-openai==0.2.14
+
+# MCP
+mcp>=1.8.1,<2.0.0
+fastmcp==2.3.4
+langchain-mcp-adapters>=0.1.0,<0.2.0
+
+httpx==0.28.1
